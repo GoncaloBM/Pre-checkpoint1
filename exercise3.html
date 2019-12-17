@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+</head>
+<body>
+    
+
+    <script>
+    
+        function wildOrCode (num) {
+
+            if (num % 3 === 0 && num % 5=== 0) {
+                return 'WildCode';
+            } else if (num % 3 === 0) {
+                return 'Wild';
+            } else if (num % 5 === 0) {
+                return 'Code';
+            }
+        }
+
+        console.log(wildOrCode(3));
+        
+
+    </script>
+</body>
+</html>
