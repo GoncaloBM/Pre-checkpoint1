@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 2</title>
+</head>
+<body>
+    
+
+    <script>
+    
+        function minAndMax (arr) {
+
+            let max = arr.reduce(function(a,b) {
+                return Math.max(a,b);
+            })
+
+            let min = arr.reduce(function(c,d) {
+                return Math.min(c,d);
+            })
+
+            let arrMinMax = [min,max]
+
+            return arrMinMax;
+        }
+
+        minAndMax([0,4,6,1,8]);
+        console.log(minAndMax);
+
+    </script>
+</body>
+</html>
