@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Exercise 4</title>
+  </head>
+
+  <style>
+
+    .main {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-gap: 1rem;
+    }
+
+    .card {
+      background-image: url("https://images.uncyc.org/pt/b/b1/151Mew.png");
+      height: 4rem;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    @media (min-width: 0px) {
+      .main {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 500px) {
+      .main {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (min-width: 1000px) {
+      .main {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+  </style>
+  <body>
+    <div class="main">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+  </body>
+</html>
